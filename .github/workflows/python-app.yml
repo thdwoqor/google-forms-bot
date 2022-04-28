@@ -7,10 +7,10 @@ on:
         description: "Person to greet"
         required: true
         default: "thdwoqor"
-  repository_dispatch:
-    types: [build-event]
-  schedule:
-    - cron: '0 2 * * *'
+#  repository_dispatch:
+#    types: [build-event]
+#  schedule:
+#    - cron: '0 2 * * *'
     
 jobs:
   build:
